@@ -4,7 +4,7 @@
 
 ## 当前成果
 
-- 已完成 11 款商品，共 66 张详情页图片。
+- 已完成 16 款商品，共 96 张详情页图片。
 - 每款固定 6 张：商品首屏、产地与原料、加工工艺、细节与口感、规格与营养、食用场景。
 - 仓库展示版：1080 × 1920 高质量 JPEG，9:16。
 - 原始交付版：1080 × 1920 PNG，保存在完整项目交付包中。
@@ -26,20 +26,25 @@
 | 08-sesame-walnut-date | 芝麻枣夹核桃 |
 | 09-date-walnut-bar | 枣仁派 |
 | 10-red-goji | 红枸杞 |
+| 11-crispy-date-slices | 香脆枣片 |
+| 12-crispy-whole-dates | 香酥脆枣 |
+| 13-date-walnut | 枣夹核桃 |
+| 14-goji-gift | 红枸杞礼盒 |
+| 15-date-walnut-gift | 枣夹核桃礼盒 |
 
 ## 仓库结构
 
 ```text
 .
 ├── AGENTS.md                 # 后续 Agent 必须遵守的规则
-├── artifacts/                # 11 款 × 6 张详情页
+├── artifacts/                # 16 款 × 6 张详情页
 ├── docs/
 │   ├── STYLE_GUIDE.md        # 固定视觉规范
 │   ├── WORKFLOW.md           # 完整生成流程
 │   ├── EXPERIENCE.md         # 已验证经验
 │   └── ARTIFACTS.md          # 原始成品包校验信息
-├── previews/                 # 批次预览
-└── scripts/                  # 三批生成与排版脚本
+├── previews/                 # 各批次预览
+└── scripts/                  # 各批次生成与排版脚本
 ```
 
 ## 固定规则
